@@ -1,25 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import {normalize} from './Display';
+import Holiday from './Holiday';
+import TextPad from './TextPad';
+import Display from './Display';
 
-function App() {
+function App(props) {
+  const item = props.item;
+  const index = props.index;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={'app ' + show(item)} id={normalize(item.month) + '' + normalize(item.date)}>
+      <Display item={item} index={index} />
+      {showDetails(index, item)}
     </div>
   );
+}
+
+function showDetails(index, item) {
+  if (isHoliday(item)) {
+    return <Holiday item={item} index={index} /> 
+  }
+  return <TextPad item={item} index={index}  />
+}
+
+function show(item) {
+  if (isHoliday(item)) {
+    return ''
+  }
+  return ''
+}
+
+function isHoliday(item) {
+  return item.title;
 }
 
 export default App;

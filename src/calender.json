@@ -1,0 +1,25 @@
+[
+    {
+        "month": 1,
+        "date": 1,
+        "lunar":"庚子年冬月十八",
+        "title": "New Year's Day",
+        "checklist": [
+            {
+                "icon": "cheers",
+                "text": "向一个人说新年快乐",
+                "color": "golden"
+            },
+            {
+                "icon": "cheers",
+                "text": "换上新年装饰"
+            },
+            {
+                "icon": "cheers",
+                "text": "许下心愿",
+                "color": "pink"
+            }
+        ],
+        "icon": "cheers"
+    }
+]

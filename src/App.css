@@ -20,12 +20,288 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+.app {
+  page-break-before: always;
+  display: block;
+  margin: 5vw;
+  font-size: 5vw;
+  font-family: Benton, Arial,sans-serif; 
+}
+
+.top {
+  color: #3b3b3b;
+  border: 0.5vw dashed #b3b3b3;
+  border-radius: 2vw;
+  margin-top: 20vw;
+  padding: 2vw;
+  position: relative;
+  display: flex;
+}
+
+.display {
+  text-align: center;
+  width: 100%;
+}
+
+.normal-text {
+  font-weight: initial;
+  font-size: 6vw;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+}
+
+.month {
+  font-weight: bolder;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+}
+
+.lunar {
+  font-size: 5vw;
+  color: #3b3b3b;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+}
+
+h1 {
+  font-size: 30vw;
+  margin: 0em;
+  font-family: "Sims SC",Arial,sans-serif;
+  color: #25a8e0;
+  margin-left: 3vw;
+}
+
+.timer {
+  text-align: left;
+  transform: rotate(-90deg);
+  width: fit-content;
+  height: fit-content;
+  vertical-align: middle;
+  display: flex;
+  margin-right: -14vw;
+  margin-top: 10vw;
+  margin-left: -7vw;
+}
+
+.checkbox {
+  font-size: 4vw;
+  font-weight: bold;
+  padding: 2vw;
+  color: #3e8ddd;
+  margin: 0;
+  display: flex;
+  vertical-align: middle;
+}
+
+.checkbox-icon {
+  font-size: 6vw;
+}
+
+.checkbox-span {
+  margin-left: 3vw;
+  margin-top: 1vw;
+}
+
+.checkbox-1 {
+  background-color: rgba(241, 241, 241, 0.5);
+}
+.checkbox-2 {
+  background-color: #ffffff;
+}
+
+.holiday {
+  margin-top: 4vw;
+  border: 0.4vw solid #99bde0;
+  border-radius: 2vw;
+  padding: 2.5vw;
+  background-color: #e6ecf3;
+}
+
+.holiday-header {
+  display: flex;
+  color: #0089cd;
+  background-color: #ffffff;
+  font-family: "Sims SC",Arial,sans-serif;
+  font-weight: bold;
+  vertical-align: middle;
+  font-size: 6vw;
+  padding: 2vw;
+}
+
+.holiday-span {
+  margin-top: 5vw;
+  margin-left: 3vw;
+}
+
+.holiday-icon {
+  background-image: url('bg.svg');
+  background-repeat: no-repeat;
+  color: #ffd43b;
+  height: 15vw;
+  width: 15vw;
+  font-size: 13vw;
+  padding: 1.5vw;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.timer-logo {
+  transform: rotate(83deg);
+  background-image: url('logo.svg');
+  background-size: 700%;
+  width: 6vw;
+  height: 14vw;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+.count {
+  margin-right: 5vw;
+  margin-top: 4.5vw;
+  font-weight: bold;
+  font-family: "Sims SC",Arial,sans-serif;
+}
+
+.icon {
+  border: 0.5vw solid #ffffff;
+  background-color: #c3c3c3;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 1vw;
+  width: 7.274vw;
+  height: 6vw;
+  text-align: center;
+  z-index: 1;
+}
+
+.svg-inline--fa {
+  width: 1em !important;
+  height: 1em;
+  vertical-align: 0em;
+}
+
+.bar {
+  /* display: flex; */
+  height: 4vw;
+  width: 100%;
+  margin-left: -3vw;
+  margin-top: 2.5vw;
+  border-radius: 3vw;
+  background-color: #c3c3c3!important;
+  box-shadow: 0 0 3vw -3vw rgba(50,50,50,.4), inset 0 0 5vw 0.5vw rgba(50,50,50,.1);
+  background-image: linear-gradient(to bottom,#c3c3c3,#f3f3f3);
+}
+
+.status-header {
+  color: #3e8ddd;
+  font-weight: bold;
+  background-color: #ffffff;
+  padding: 1.5vw 4vw;
+  font-size: 4vw;
+}
+
+.status-body {
+  display: flex;
+  background-color: #fafafa;
+  padding: 1vw 4vw;
+}
+
+.status {
+  display: grid;
+  border-radius: 2vw;
+  margin-top: 4vw;
+  grid-template-columns: auto auto;
+  grid-gap: 0.2vw;
+  background-color: #3b3b3b;
+  border: 3vw solid #f3f3f3;
+}
+
+.noshow {
+  display: none;
+}
+
+.green {
+  color: #029e10;
+}
+
+.dark-blue {
+  color: #242a35;
+}
+
+.blue {
+  color: #1b95da;
+}
+
+.orange {
+  color: #f56c2c;
+}
+
+.xbox {
+  color: #52b043;
+}
+
+.red {
+  color: #fe0016;
+}
+
+.golden {
+  color: #c4801a;
+}
+
+.pink {
+  color: #f783ac;
+}
+
+.yellow {
+  color: #ffd43b;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.weibo {
+  color: #fa7d3c ;
+}
+
+.alipay {
+  color: #1678ff;
+}
+
+@font-face {
+	font-family: "Sims SC";
+	src: url(./fonts/The_Sims_Sans-SC.eot?1603906002) format('embedded-opentype'), url(./fonts/The_Sims_Sans-SC.svg?1603906002) format('svg'), url(./fonts/The_Sims_Sans-SC.woff?1603906002) format('woff'), url(./fonts/The_Sims_Sans-SC.otf?1603906002) format('opentype'), url(./fonts/The_Sims_Sans-SC.ttf?1603906002) format('truetype');
+	font-weight: 400
+}
+
+@font-face {
+	font-family: "Sims SC";
+	src: url(./fonts/The_Sims_Sans-Bold-SC.eot?1603906002) format('embedded-opentype'), url(./fonts/The_Sims_Sans-Bold-SC.svg?1603906002) format('svg'), url(./fonts/The_Sims_Sans-Bold-SC.woff?1603906002) format('woff'), url(./fonts/The_Sims_Sans-Bold-SC.otf?1603906002) format('opentype'), url(./fonts/The_Sims_Sans-Bold-SC.ttf?1603906002) format('truetype');
+	font-weight: 700
+}
+
+@font-face {
+	font-family: Benton;
+	src: url(./fonts/Benton_Sans-Book.woff?1603906002) format('woff');
+	font-weight: 400
+}
+
+@font-face {
+	font-family: Benton;
+	src: url(./fonts/Benton_Sans-Medium.eot?1603906002) format('embedded-opentype'), url(./fonts/Benton_Sans-Medium.woff?1603906002) format('woff'), url(./fonts/Benton_Sans-Medium.ttf?1603906002) format('truetype'), url(./fonts/Benton_Sans-Medium.svg?1603906002) format('svg');
+	font-weight: 500
+}
+
+@font-face {
+	font-family: Benton;
+	src: url(./fonts/Benton_Sans-Bold.eot?1603906002) format('embedded-opentype'), url(./fonts/Benton_Sans-Bold.woff?1603906002) format('woff'), url(./fonts/Benton_Sans-Bold.ttf?1603906002) format('truetype'), url(./fonts/Benton_Sans-Bold.svg?1603906002) format('svg');
+	font-weight: 700
 }
 
 @keyframes App-logo-spin {

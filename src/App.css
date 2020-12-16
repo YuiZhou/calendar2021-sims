@@ -213,7 +213,7 @@ h1 {
 }
 
 .status-item {
-  border: 0.01vw solid #4c4c4c;
+  border: 0.1vw solid rgba(77, 77, 77, 0.2);
 }
 
 .status {

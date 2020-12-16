@@ -6,7 +6,7 @@ function Cover() {
         <div className='cover-in'>
             <div>
                 <div className='cover-logo'></div>
-                <div>Loading your 2021</div>
+                <div>Loading your 2021...</div>
             </div>
         </div>
     </div>

@@ -71,7 +71,8 @@
 
 h1 {
   font-size: 30vw;
-  margin: 0em;
+  margin-top: -3vw;
+  margin-bottom: -3vw;
   font-family: "Sims SC",Arial,sans-serif;
   color: #25a8e0;
   margin-left: 3vw;
@@ -212,7 +213,7 @@ h1 {
 }
 
 .status-item {
-  border: 0.1vw solid #3b3b3b;
+  border: 0.01vw solid #4c4c4c;
 }
 
 .status {

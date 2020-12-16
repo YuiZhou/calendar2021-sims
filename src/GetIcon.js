@@ -1,7 +1,7 @@
 import { faDragon, faCircle, faQuestionCircle, faBed, faLaugh, faLaughWink,
   faBroom, faTv, faTram, faFish, faHeart, faCheese, faCookie, weibo,
-  faCommentsDollar, faComments, faMusic, faGift, faGlassCheers, faHandSparkles, faHatCowboy, faBirthdayCake, faMountain, faChild, faFemale, faPhoneAlt, faGamepad, faMale, faHatWizard, faHouseUser, faShoppingCart, faCandyCane, faClock, faGifts, faFlag } from '@fortawesome/free-solid-svg-icons'
-import { faWeibo, faAlipay } from  '@fortawesome/free-brands-svg-icons'; 
+  faCommentsDollar, faComments, faMusic, faGift, faGlassCheers, faHandSparkles, faHatCowboy, faBirthdayCake, faMountain, faChild, faFemale, faPhoneAlt, faGamepad, faMale, faHatWizard, faHouseUser, faShoppingCart, faCandyCane, faClock, faGifts, faFlag, faTicketAlt, faMagic, faSwimmer, faSwimmingPool, faDrumstickBite, faHollyBerry, faBookReader, faStore, faSkullCrossbones } from '@fortawesome/free-solid-svg-icons'
+import { faWeibo, faAlipay, faAffiliatetheme, faInternetExplorer } from  '@fortawesome/free-brands-svg-icons'; 
 
 const table = {
   'cheers': faGlassCheers,
@@ -38,7 +38,18 @@ const table = {
   'candy': faCandyCane,
   'clock': faClock,
   'gifts': faGifts,
-  'flag': faFlag
+  'flag': faFlag,
+  'tickect': faTicketAlt,
+  'magic': faMagic,
+  'swimming': faSwimmingPool,
+  'swimmer': faSwimmer,
+  'chick': faDrumstickBite,
+  'berry': faHollyBerry,
+  'elves': faAffiliatetheme,
+  'book': faBookReader,
+  'store':  faStore,
+  'pirate': faSkullCrossbones,
+  'internet': faInternetExplorer
 }
 
 

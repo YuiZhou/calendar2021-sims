@@ -223,6 +223,40 @@ h1 {
   border: 3vw solid #f3f3f3;
 }
 
+.cover {
+  width: 100%;
+  padding-top: 150%;
+  background-color: #253A63;
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Sims SC",Arial,sans-serif;
+  font-size: 5vw;
+}
+
+.cover-in {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover-logo {
+  height: 50vw;
+  background-size: 40%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  background-image: url('./cover-logo.svg');
+
+}
+
 .noshow {
   display: none;
 }
@@ -273,6 +307,10 @@ h1 {
 
 .alipay {
   color: #1678ff;
+}
+
+.purple {
+  color: #7139D2;
 }
 
 @font-face {

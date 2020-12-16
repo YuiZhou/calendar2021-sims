@@ -513,7 +513,27 @@
     {
        "month":3,
        "date":17,
-       "lunar":"辛丑年二月初五"
+       "lunar":"辛丑年二月初五",
+       "icon": "elves",
+       "title": "地精日",
+       "color": "yellow",
+       "checklist": [
+          {
+             "text": "大声歌唱",
+             "icon": "music",
+             "color":  "dark-blue"
+          },
+          {
+             "text": "Bar-B-Que",
+             "icon": "chick",
+             "color": "orange"
+          },
+          {
+             "text":"讲一个故事",
+             "icon": "book",
+             "color": "blue"
+          }
+       ]
     },
     {
        "month":3,
@@ -1126,7 +1146,7 @@
          {
             "text": "送出生日礼物",
             "icon": "gift",
-            "color": "pink"
+            "color": "yellow"
          },
          {
             "text": "表达爱意",
@@ -1206,7 +1226,7 @@
        "lunar":"辛丑年五月廿六",
        "title": "Mom's Birthday",
        "icon": "female",
-       "color": "blue",
+       "color": "yellow",
        "checklist": [
          {
             "text": "给妈妈送上生日祝福",
@@ -1353,7 +1373,27 @@
     {
        "month":7,
        "date":31,
-       "lunar":"辛丑年六月廿二"
+       "lunar":"辛丑年六月廿二",
+       "title": "swimming day",
+       "icon": "swimming",
+       "color": "blue",
+       "checklist": [
+          {
+             "text": "吃一个冰淇淋",
+             "icon": "icecream",
+             "color": "pink"
+          },
+          {
+             "text": "游泳",
+             "icon": "swimmer",
+             "color": "blue"
+          },
+          {
+             "text": "吃一顿大餐",
+             "icon": "chick",
+             "color": "yellow"
+          }
+       ]
     },
     {
        "month":8,
@@ -1513,7 +1553,27 @@
     {
        "month":9,
        "date":1,
-       "lunar":"辛丑年七月廿五"
+       "lunar":"辛丑年七月廿五",
+       "title": "Disney Day",
+       "color": "yellow",
+       "icon": "magic",
+       "checklist": [
+          {
+             "text": "看一部迪士尼电影",
+             "icon": "tv",
+             "color": "blue"
+          },
+          {
+             "text": "筹划去迪士尼乐园玩耍",
+             "icon": "tickect",
+             "color": "dark-blue"
+          },
+          {
+             "text": "购买迪士尼周边",
+             "color": "pink",
+             "icon": "shopping"
+          }
+       ]
     },
     {
        "month":9,
@@ -1623,7 +1683,27 @@
     {
        "month":9,
        "date":19,
-       "lunar":"辛丑年八月十三"
+       "lunar":"辛丑年八月十三",
+       "title": "国际海盗语言日",
+       "color": "dark-blue",
+       "icon": "pirate",
+       "checklist": [
+          {
+             "text": "用海盗语言打招呼",
+             "color": "white",
+             "icon": "comments"
+          },
+          {
+             "text": "查询海盗日历史",
+             "icon": "internet",
+             "color": "blue"
+          },
+          {
+             "text": "讲述海盗故事",
+             "color": "red",
+             "icon": "book"
+          }
+       ]
     },
     {
        "month":9,
@@ -1873,7 +1953,27 @@
     {
        "month":10,
        "date":31,
-       "lunar":"辛丑年九月廿六"
+       "lunar":"辛丑年九月廿六",
+       "title": "Halloween",
+       "icon": "hat",
+       "color": "orange",
+       "checklist": [
+          {
+             "text": "换上节日装扮",
+             "color": "purple",
+             "icon": "hat"
+          },
+          {
+             "text": "去万圣节集市",
+             "color": "yellow",
+             "icon": "store"
+          },
+          {
+             "text": "Trick Or Treat",
+             "icon": "candy",
+             "color": "green"
+          }
+       ]
     },
     {
        "month":11,
@@ -2163,7 +2263,27 @@
     {
        "month":12,
        "date":24,
-       "lunar":"辛丑年冬月廿一"
+       "lunar":"辛丑年冬月廿一",
+       "title": "平安夜",
+       "icon": "berry",
+       "color": "green",
+       "checklist": [
+          {
+             "text": "吃一顿大餐",
+             "color": "orange",
+             "icon":"chick"
+         },
+         {
+            "text": "表示感激之情",
+            "color": "yellow",
+            "icon": "comments"
+         },
+         {
+            "text": "送出礼物",
+            "icon": "gifts",
+            "color": "pink"
+         }
+       ]
     },
     {
        "month":12,
@@ -2219,7 +2339,7 @@
        "month":12,
        "date":31,
        "lunar":"辛丑年冬月廿八",
-       "title": "除夕",
+       "title": "跨年夜",
        "color": "pink",
        "icon": "cheers",
        "checklist": [

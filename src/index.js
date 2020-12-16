@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Cover from './Cover';
+
 import reportWebVitals from './reportWebVitals';
 var calendar_arry = require('./all.json')
 
 ReactDOM.render(
   <React.StrictMode>
+    <Cover/>
     {calendar_arry.map((e, i) => <App index={i} item={e} />)}
   </React.StrictMode>,
   document.getElementById('root')

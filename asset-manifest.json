@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/calendar2021-sims/static/css/main.79d67c96.chunk.css",
+    "main.js": "/calendar2021-sims/static/js/main.abae78eb.chunk.js",
+    "main.js.map": "/calendar2021-sims/static/js/main.abae78eb.chunk.js.map",
+    "runtime-main.js": "/calendar2021-sims/static/js/runtime-main.2b55a750.js",
+    "runtime-main.js.map": "/calendar2021-sims/static/js/runtime-main.2b55a750.js.map",
+    "static/js/2.204714e8.chunk.js": "/calendar2021-sims/static/js/2.204714e8.chunk.js",
+    "static/js/2.204714e8.chunk.js.map": "/calendar2021-sims/static/js/2.204714e8.chunk.js.map",
+    "static/js/3.5c8903cf.chunk.js": "/calendar2021-sims/static/js/3.5c8903cf.chunk.js",
+    "static/js/3.5c8903cf.chunk.js.map": "/calendar2021-sims/static/js/3.5c8903cf.chunk.js.map",
+    "index.html": "/calendar2021-sims/index.html",
+    "static/css/main.79d67c96.chunk.css.map": "/calendar2021-sims/static/css/main.79d67c96.chunk.css.map",
+    "static/js/2.204714e8.chunk.js.LICENSE.txt": "/calendar2021-sims/static/js/2.204714e8.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/calendar2021-sims/static/media/logo.c8b4f9f7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b55a750.js",
+    "static/js/2.204714e8.chunk.js",
+    "static/css/main.79d67c96.chunk.css",
+    "static/js/main.abae78eb.chunk.js"
+  ]
+}
